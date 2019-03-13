@@ -1,21 +1,17 @@
-package com.jd.databaseDocer.View;
+package com.pascalx.databaseDocer.View;
 
-import com.jd.databaseDocer.entity.ColumnInfo;
-import com.jd.databaseDocer.entity.TableInfo;
-import com.jd.databaseDocer.service.DocProduce;
-import com.jd.databaseDocer.service.DocProduceImpl;
+import com.pascalx.databaseDocer.entity.TableInfo;
+import com.pascalx.databaseDocer.service.DocProduce;
+import com.pascalx.databaseDocer.service.DocProduceImpl;
 
 import javax.swing.*;
 import javax.swing.border.Border;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.io.PrintStream;
 import java.io.PrintWriter;
 import java.io.StringWriter;
 import java.io.Writer;
-import java.sql.SQLException;
-import java.util.*;
 import java.util.List;
 
 /**

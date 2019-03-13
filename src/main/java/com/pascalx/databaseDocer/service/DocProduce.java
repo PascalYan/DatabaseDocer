@@ -1,10 +1,7 @@
-package com.jd.databaseDocer.service;
+package com.pascalx.databaseDocer.service;
 
-import com.jd.databaseDocer.entity.DBInfo;
-import com.jd.databaseDocer.entity.TableInfo;
+import com.pascalx.databaseDocer.entity.TableInfo;
 
-import javax.swing.*;
-import java.sql.SQLException;
 import java.util.List;
 
 /**

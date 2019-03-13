@@ -1,8 +1,7 @@
-package com.jd.databaseDocer.View;
+package com.pascalx.databaseDocer.View;
 
-import com.jd.databaseDocer.entity.TableInfo;
+import com.pascalx.databaseDocer.entity.TableInfo;
 
-import java.awt.*;
 import java.util.List;
 
 import javax.swing.*;

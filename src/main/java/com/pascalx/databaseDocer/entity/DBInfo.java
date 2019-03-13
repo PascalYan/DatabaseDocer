@@ -1,4 +1,4 @@
-package com.jd.databaseDocer.entity;
+package com.pascalx.databaseDocer.entity;
 
 /**
  * Created by yanghui10 on 2016/8/20.

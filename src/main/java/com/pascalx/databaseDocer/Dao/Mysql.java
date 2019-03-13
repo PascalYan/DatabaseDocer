@@ -1,9 +1,9 @@
-package com.jd.databaseDocer.Dao;
+package com.pascalx.databaseDocer.Dao;
 
-import com.jd.databaseDocer.entity.ColumnInfo;
-import com.jd.databaseDocer.entity.DBInfo;
-import com.jd.databaseDocer.entity.RemarkInfo;
-import com.jd.databaseDocer.entity.TableInfo;
+import com.pascalx.databaseDocer.entity.ColumnInfo;
+import com.pascalx.databaseDocer.entity.DBInfo;
+import com.pascalx.databaseDocer.entity.RemarkInfo;
+import com.pascalx.databaseDocer.entity.TableInfo;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -16,7 +16,7 @@ import java.util.Map;
  */
 public class Mysql {
 
-//    static final String DB_URL="jdbc:mysql://172.24.7.89:3306/jr_geious?useUnicode=true&characterEncoding=utf8";
+//    static final String DB_URL="jdbc:mysql://172.24.7.89:3306/test?useUnicode=true&characterEncoding=utf8";
 //    static final String USER = "mysql";
 //    static final String PASS = "123456";
     /**

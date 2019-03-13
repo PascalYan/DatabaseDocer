@@ -1,8 +1,8 @@
-package com.jd.databaseDocer.View;
+package com.pascalx.databaseDocer.View;
 
-import com.jd.databaseDocer.Dao.Mysql;
-import com.jd.databaseDocer.entity.DBInfo;
-import com.jd.databaseDocer.entity.TableInfo;
+import com.pascalx.databaseDocer.Dao.Mysql;
+import com.pascalx.databaseDocer.entity.DBInfo;
+import com.pascalx.databaseDocer.entity.TableInfo;
 
 import javax.swing.*;
 import javax.swing.border.Border;
@@ -62,7 +62,7 @@ public class ConnectPanel extends JPanel{
         connButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 try {
-                    List<TableInfo> tableInfos=Mysql.connectDB(new DBInfo(dbNameInput.getText(),urlInput.getText(),passInput.getText(),userInput.getText()));
+                    List<TableInfo> tableInfos= Mysql.connectDB(new DBInfo(dbNameInput.getText(),urlInput.getText(),passInput.getText(),userInput.getText()));
                     MainFrame.showInfoPanel(tableInfos);
                 } catch (Exception e1) {
                     e1.printStackTrace();

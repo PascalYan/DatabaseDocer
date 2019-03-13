@@ -1,26 +1,17 @@
-package com.jd.databaseDocer.poi;
+package com.pascalx.databaseDocer.poi;
 
-import com.jd.databaseDocer.Dao.Mysql;
-import com.jd.databaseDocer.View.MainFrame;
-import com.jd.databaseDocer.entity.ColumnInfo;
-import com.jd.databaseDocer.entity.RemarkInfo;
-import com.jd.databaseDocer.entity.TableInfo;
+import com.pascalx.databaseDocer.Dao.Mysql;
+import com.pascalx.databaseDocer.View.MainFrame;
+import com.pascalx.databaseDocer.entity.ColumnInfo;
+import com.pascalx.databaseDocer.entity.RemarkInfo;
+import com.pascalx.databaseDocer.entity.TableInfo;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.ss.usermodel.Font;
 
-import javax.xml.bind.annotation.adapters.HexBinaryAdapter;
-import java.awt.*;
-import java.awt.Color;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
-import java.io.IOException;
-import java.sql.SQLException;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
-
-import static java.util.Map.*;
 
 /**
  * Created by yanghui10 on 2016/8/20.
@@ -287,7 +278,7 @@ public class ExcelHelper {
         Sheet sheet=wb.createSheet("未命中的com_type");
         createHeadRow(sheet,this.getHeadStyle(),"序号","com_type");
         int count=1;
-        for(String com_type:Mysql.cacheRemarkInfoMap.keySet()){
+        for(String com_type: Mysql.cacheRemarkInfoMap.keySet()){
             createRow(sheet,(short)count,getStyleNormal(),String.valueOf(count),com_type);
             count++;
         }

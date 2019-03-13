@@ -1,4 +1,4 @@
-package com.jd.databaseDocer.entity;
+package com.pascalx.databaseDocer.entity;
 
 import java.util.List;
 
